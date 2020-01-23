@@ -1,12 +1,17 @@
+import random
+
 def rearrange(input):
     print("Enter A String")
     string = input()
-    a = string.split(" ")
+    
+    string_list = string.split(" ")
 
-    a=a[-1::-1]
+    # string_list = string_list[-1::-1]
 
-    arranged = ' '.join(a)
+    # arranged = ' '.join(string_list)
 
-    print(a)
+    random.shuffle(string_list)
+
+    print(string_list)
 
 rearrange(input)
