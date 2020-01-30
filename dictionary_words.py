@@ -1,4 +1,4 @@
-from random import random, randint, choice, sample
+from random import random, randint
 import sys
 
 filename = "/Users/studentlaptop_719_1/Dev/CS1.2/CS-12-Intro-to-Data-Structures/words.txt"
